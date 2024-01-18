@@ -1,0 +1,26 @@
+.weather-app {
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(
+    73.19% 111.55% at 93.07% 74.31%,
+    #45278b 0%,
+    #2e335a 100%
+  );
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/* Track */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.25rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
