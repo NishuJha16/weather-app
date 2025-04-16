@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const service = axios.create({
-  baseURL: "https://weatherapi-com.p.rapidapi.com/",
+  baseURL: "https://weather-api167.p.rapidapi.com/api/weather",
   headers: {
     "Content-Type": "application/json",
   },
@@ -10,8 +10,8 @@ const service = axios.create({
 service.interceptors.request.use((config) => {
   if (!config.headers.requestType) {
     config.headers["X-RapidAPI-Key"] =
-      "24397b3c22msh5c8800231cb5539p122b57jsn9a41b7b5cbeb";
-    config.headers["X-RapidAPI-Host"] = "weatherapi-com.p.rapidapi.com";
+      "a240a7078bmsh2e1464212b3017dp1e5718jsnb5506cafa362";
+    config.headers["X-RapidAPI-Host"] = "weather-api167.p.rapidapi.com";
   }
   return config;
 });
