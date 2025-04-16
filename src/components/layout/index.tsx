@@ -43,7 +43,7 @@ const Layout = () => {
       }
     } else {
       setLoading(true);
-      const data = await getCurrentDayData({ q: searchQuery });
+      const data = await getCurrentDayData({ place: searchQuery });
       setCurrentDayData(data);
       setLoading(false);
     }
