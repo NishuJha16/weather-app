@@ -144,7 +144,7 @@ const Layout = () => {
           value={searchQuery}
           onChange={(event) => setSearchQuery(event.target.value)}
           placeholder="Enter location here..."
-          className="px-3 py-2 rounded-md outline-none w-[320px] self-end text-[#000] dark:text-[#fff] absolute sm:relative sm:top-0 top-6 z-20"
+          className="px-3 py-2 rounded-md outline-none w-[320px] self-end text-[#000] absolute sm:relative sm:top-0 top-6 z-20"
         />
         {currentDayData ? (
           <React.Fragment>
